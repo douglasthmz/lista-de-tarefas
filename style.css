@@ -1,0 +1,54 @@
+div#app{
+    background-color: rgba(0, 0, 0, 0.74);
+    margin:auto;
+    margin-top:100px;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border-radius:10px;
+}
+h3{
+    color:white;
+}
+div#submit{
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+ul#item{
+    width: 500px;
+}
+li{
+    display:flex;
+    flex-direction: row;
+}
+a{
+    text-align:right;
+    float:right;
+    position: relative;
+    left: 40px;
+}
+p{
+    width:fit-content;
+    height:auto; 
+    margin:0px;
+    text-align:justify
+}
+input{
+    width:400px;
+}
+button#add{
+    margin-top: 10px;
+    width: 200px;
+}
+button#add:hover{
+    transform:scale(1.1);
+}
+a:hover{
+    transform:scale(1.1)
+}
